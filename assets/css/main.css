@@ -1,0 +1,41 @@
+/* Start Global Style */
+:root {
+  /* Set Color Text */
+  --mainColor: #7B0559;
+  --secondColor: #24A845;
+  --thirdColor: #5B5B5B;
+  --fouthColor:#BD2C92;
+  --labelColor:#202021
+}
+.container-app {
+  width: 1366px;
+  margin: auto;
+}
+input, select, textarea{
+  color: var(--thirdColor) !important;
+}
+
+.mainBgColor {
+  background-color: #A22274
+}
+
+.secondBgColor {
+  background-color: #24A845
+}
+
+.thirdBgColor {
+  background-color: #5B5B5B
+}
+.flex-gap {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+label{
+  color: var(--labelColor);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* End Global Style */

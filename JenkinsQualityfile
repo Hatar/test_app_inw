@@ -1,0 +1,25 @@
+pipeline {
+    agent {
+        label "master"
+    }
+    stages {
+        stage("Tests Unitaires") {
+            steps {
+                sh 'yarn install'
+                sh 'yarn test'
+            }
+        }
+        stage('SonarQube analysis') {
+            steps {
+                withSonarQubeEnv('Sonarqube-inwi') {
+                    sh "sonar-scanner -Dsonar.projectName=Myinwi-BO-Front -Dsonar.projectKey=Myinwi-BO-Front"
+                }
+            }
+        }
+        stage("Quality gate") {
+            steps {
+                waitForQualityGate abortPipeline: true
+            }
+        }
+    }
+}

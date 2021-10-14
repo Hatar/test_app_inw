@@ -1,0 +1,80 @@
+{
+    "header" :[
+        {
+            "Accueil":"Accueil",
+            "Menu":"Menu",
+            "Balance":"Balance",
+            "Offres":"Offres",
+            "Application":"Application",
+            "Services":"Services",
+            "Club_Inwi":"Club Inwi",
+            "Compte_Selfceare":"Compte Selfceare",
+            "Assistance":"Assistance",
+            "Administration":"Administration",
+            "sub_menu_admin" :[
+               {
+                    "Profile":"Profile",
+                    "Utilisateurs":"Utilisateurs",
+                    "Creation_compte_my_inwi":"Creation compte my inwi",
+                    "Messages":"Messages",
+                    "Enquête":"Enquête",
+                    "Langue":"Langue",
+                    "Media":"Media",
+                    "Configuration_des_sessions":"Configuration des sessions",
+                    "Rénitialisation_passe":"Rénitialisation du mot de passe"
+                }
+            ],
+            "Notifications":"Notifications",
+            "Reporting":"Reporting"
+        }
+    ],
+    "page_config_session" :[
+        {
+            "Type_session":"Type de session",
+            "duree":"Durée",
+            "Connexion_sans_compte":"Connexion sans compte",
+            "demande_1":"utilisateur qui n’a pas demandé de garder sa session ouverte",
+            "demande_2":"utilisateur a demandé de garder sa session ouverte",
+            "regle_blocage":"Règles de blocage",
+            "Enregister":"Enregister",
+            "tentative_conx":"Tentatives de connexion",
+            "intervalle":"L’intervalle (en secondes)",
+            "duree_blocage_compte":"La durée de blocage du compte"
+        }
+    ],
+    "page_creation_compte_inwi" :[
+        {
+            "create_account":"Création de compte",
+            "Suivant":"Suivant",
+            "pws_temp":"Mot de passe temporaire",
+            "num_ligne":"Numéro de la ligne inwi",
+            "type_account":"Type de compte"
+        }
+    ],
+    "page_langue" :[
+        {
+            "active_lang":"Activation/désactivation langue",
+            "Langue":"Langue",
+            "Statue":"Statue",
+            "Francais":"Francais",
+            "Arabe":"Arabe"
+        }
+    ],
+    "page_media" :[
+        {
+            "title_page":"Mise à jour du lien du tutoriel Myinwi",
+            "Enregister":"Enregister",
+            "lien_video":"Lien du video",
+            "Preview":"Preview"
+        }
+    ],
+    "page_settings" :[
+        {
+            "search_user":"Rechecher utilisateur",
+            "title_card":"Réinitialisation du mot de passe",
+            "action_title":"Enregister",
+            "generate_pws":"Generate nouveau mot de passe",
+            "methode_comm":"Méthode de communication"
+        }
+    ]
+}
